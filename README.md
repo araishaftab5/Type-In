@@ -14,3 +14,4 @@ FEATURES IMPLEMENTED
 4. Alert while user enters text correctly. The typing area border turns blue to give the user a signal.
 5. Alert when user finishes typing sample text correctly. The text area border turns green to give the user a signal.
 6. Multiple sample texts have been used.
+7. A timer keeps track of the time in minutes, seconds and hundredth of a second and starts running as soon as user starts typing
