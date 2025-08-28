@@ -100,3 +100,14 @@ function reset(){
 testArea.addEventListener("keypress",start, false);
 testArea.addEventListener("keyup",spellCheck, false); //when you go up the key
 resetButton.addEventListener("click",reset,false);
+
+// Prevent copy, cut, and paste in the typing area
+testArea.addEventListener("copy", function(e) {
+    e.preventDefault();
+});
+testArea.addEventListener("cut", function(e) {
+    e.preventDefault();
+});
+testArea.addEventListener("paste", function(e) {
+    e.preventDefault();
+});
